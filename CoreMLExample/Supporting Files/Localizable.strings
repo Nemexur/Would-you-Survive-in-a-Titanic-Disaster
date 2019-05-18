@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  CoreMLExample
+
+  Created by Alex Milogradsky on 01/04/2019.
+  Copyright © 2019 Alex Milogradsky. All rights reserved.
+*/
+
+// MARK: - Basic Strings
+
+"basic_font" = "Avenir-MediumOblique";
+"title_text" = "Would you survive in a Titanic Disaster?";
+"wrong_data_message" = "Unexpected error occurred. Received unrecognized result";
+"passenger_died_message" = "I'm sorry but you did not manage to survive :(";
+"passenger_survived_message" = "Congratulations! You escaped from sinking massive ship";
+"input_field_error_message" = "You must fill out all the fields";
+"validation_error_message" = "You have mistaken in inputting your data";
+
+// MARK: - PClass Strings
+
+"pclass_hint" = "Input your class(1 - 1st class, 2 - 2nd class, 3 - 3rd Class)";
+"pclass_placeholder" = "PClass";
+"pclass_regexp" = "^[1-3]$";
+
+// MARK: - Gender Strings
+
+"sex_hint" = "Input your gender(male - 1 or female - 2)";
+"sex_placeholder" = "Sex";
+"sex_regexp" = "^[1-2]$";
+
+// MARK: - Age Strings
+
+"age_hint" = "Input your age";
+"age_placeholder" = "Age";
+"age_regexp" = "^\\d+$";
+
+// MARK: - Embarked Strings
+
+"embarked_hint" = "Input your embarked(Queenstown - 1, Cherbourg - 2, Southampton - 3)";
+"embarked_placeholder" = "Embarked";
+"embarked_regexp" = "^[1-3]$";
+
+// MARK: - Alliance Strings
+
+"alliance_hint" = "Input number of family members that are with you";
+"alliance_placeholder" = "Alliance";
+"alliance_regexp" = "^\\d+$";
